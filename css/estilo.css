@@ -1,3 +1,15 @@
+@media (max-width: 1350px) {
+    .bg{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 1150px) {
+    #sensor_4 {
+        height: 368px;
+    }
+}
+
 @media (max-width: 950px){
     #sensor_4 {
         display: none;
@@ -54,6 +66,12 @@
     border-bottom: whitesmoke 2px solid;
 }
 
+.segmento4 {
+    background-color: black;
+    align-items: center;
+    border-bottom: whitesmoke 2px solid;
+}
+
 .txt_segmentos_esquerda {
     padding: 20px;
     color: whitesmoke;
@@ -92,6 +110,16 @@
     justify-content: center;
     text-align: center;
     color: whitesmoke;
+    padding: 0 20px;
+}
+
+.bg4 {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 0 20px;
 }
 
 .align-itens{
@@ -130,12 +158,16 @@ input:focus {
 
 .grafico {
     background-color: whitesmoke;
-    border: 1px solid red;
-    margin-top: 20px;
+    border: 1px solid #1a1aff;
+}
+
+.row {
+    background-color: black;
 }
 
 .botoes {
     padding: 20px 10px;
+    background-color: black;
 }
 
 .gap {
