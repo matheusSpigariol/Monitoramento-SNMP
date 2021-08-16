@@ -1,0 +1,143 @@
+@media (max-width: 950px){
+    #sensor_4 {
+        display: none;
+    }
+    #div_sensor_4 {
+        background-image: url("../assets/fundo.jpg");
+    }
+}
+
+@media (max-width: 768px){
+    .img_segmentos_direita {
+        display: none;
+    }
+    .img_segmentos_esquerda {
+        display: none;
+    }
+    .segmento {
+        background-image: url("../assets/fundo.jpg");
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Anton';
+    letter-spacing: .08rem;
+}
+
+.nav-link:hover {
+    border-bottom: whitesmoke 1px solid;
+}
+
+.introducao {
+    background-image: url("../assets/fundo.jpg");
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    border-bottom: whitesmoke 2px solid;
+}
+
+.segmento {
+    background-color: black;
+    height: 350px;
+    align-items: center;
+    border-bottom: whitesmoke 2px solid;
+}
+
+.txt_segmentos_esquerda {
+    padding: 20px;
+    color: whitesmoke;
+    z-index: 1;
+}
+
+.btn {
+    width: 150px;
+}
+
+.img_segmentos_esquerda {
+    z-index: 0;
+}
+
+.txt_segmentos_direita {
+    padding: 20px;
+    color: whitesmoke;
+    z-index: 1;
+}
+
+.img_segmentos_direita {
+    z-index: 0;
+}
+
+.footer {
+    background-image: linear-gradient(to right, black, #1a1aff );
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    padding-top: 12px;
+}
+
+.bg {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.align-itens{
+    align-items: center;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+    border: 2px solid #1a1aff;
+    outline: none;
+    width: 200px;
+    border-radius: 5px;
+    height: 32px;
+    padding: 0 10px;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+input:focus {
+    width: 230px;
+}
+
+.ip {
+    margin-top: 10px;
+    width: 198px;
+}
+
+.grafico {
+    background-color: whitesmoke;
+    border: 1px solid red;
+    margin-top: 20px;
+}
+
+.botoes {
+    padding: 20px 10px;
+}
+
+.gap {
+    margin-right: 20px;
+}
